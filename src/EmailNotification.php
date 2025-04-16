@@ -1,6 +1,6 @@
 <?php
 
-namespace baikov\work8;
+namespace Baikov\Work8;
 
 class EmailNotification extends AbstractNotification {
     public function send(string $message): string {
