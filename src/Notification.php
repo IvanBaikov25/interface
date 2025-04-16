@@ -1,6 +1,6 @@
 <?php
 
-namespace baikov\work8;
+namespace Baikov\Work8;
 
 interface Notification {
     public function send(string $message): string;
