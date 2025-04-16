@@ -1,6 +1,6 @@
 <?php
 
-namespace baikov\work8;
+namespace Baikov\Work8;
 
 abstract class AbstractNotification implements Notification {
     protected string $status;
