@@ -5,8 +5,8 @@ require_once 'AbstractNotification.php';
 require_once 'EmailNotification.php';
 require_once 'SmsNotification.php';
 
-use baikov\work8\EmailNotification;
-use baikov\work8\SmsNotification;
+use Baikov\Work8\EmailNotification;
+use Baikov\Work8\SmsNotification;
 
 $emailNotification = new EmailNotification();
 echo $emailNotification->send("Привет, это тестовое сообщение!"); 
